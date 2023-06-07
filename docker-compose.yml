@@ -1,0 +1,29 @@
+version: '3'
+services:
+  pro1:
+    image: apn2993/pro1repo:latest
+    ports:
+      - "140:80"
+    deploy:
+      replicas: 3
+
+  pro2:
+    image: apn2993/pro2repo:latest
+    ports:
+      - "141:80"
+    deploy:
+      replicas: 3
+
+  pro3:
+    image: apn2993/pro3repo:latest
+    ports:
+      - "142:80"
+    deploy:
+      replicas: 3
+
+  pro4:
+    image: apn2993/pro4repo:latest
+    ports:
+      - "143:80"
+    deploy:
+      replicas: 3
